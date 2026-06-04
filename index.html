@@ -21,24 +21,24 @@
 html,body{height:100%;background:#F0EEE8}
 body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif;color:var(--black);font-size:16px;line-height:1.5}
 .wrap{max-width:480px;margin:0 auto;min-height:100vh;background:#F0EEE8;padding-bottom:40px}
-
+ 
 .header{background:var(--white);padding:16px 20px 14px;border-bottom:1px solid var(--gray-bd);position:sticky;top:0;z-index:10}
 .header h1{font-size:16px;font-weight:700;color:var(--black)}
 .header p{font-size:12px;color:var(--gray-txt);margin-top:2px}
-
+ 
 .screen{display:none;padding:16px}
 .screen.active{display:block}
-
+ 
 .progress-wrap{margin-bottom:14px}
 .progress-label{font-size:12px;color:var(--gray-txt);margin-bottom:6px;font-weight:500}
 .progress{display:flex;gap:4px}
 .pip{height:5px;flex:1;border-radius:3px;background:var(--gray-bd)}
 .pip.done{background:var(--blue)}
 .pip.active{background:#378ADD}
-
+ 
 .section-title{font-size:18px;font-weight:700;color:var(--black);margin-bottom:4px}
 .section-sub{font-size:14px;color:var(--gray-txt);margin-bottom:16px;line-height:1.5}
-
+ 
 .choice-card{background:var(--white);border:1.5px solid var(--gray-bd);border-radius:var(--radius);padding:16px;margin-bottom:10px;cursor:pointer;transition:all .15s;-webkit-user-select:none;user-select:none;display:block;width:100%}
 .choice-card:active{transform:scale(0.985)}
 .choice-card.selected{border-color:var(--blue);background:var(--blue-lt)}
@@ -49,26 +49,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
 .choice-card.selected .choice-title{color:var(--blue-dk)}
 .choice-desc{font-size:13px;color:var(--gray-txt);line-height:1.45}
 .choice-card.selected .choice-desc{color:var(--blue-dk)}
-
+ 
 .sex-row{display:flex;gap:10px;margin-top:4px}
 .sex-card{flex:1;background:var(--white);border:1.5px solid var(--gray-bd);border-radius:var(--radius-sm);padding:14px 8px;text-align:center;cursor:pointer;font-size:15px;font-weight:600;color:var(--black);transition:all .15s;-webkit-user-select:none;user-select:none}
 .sex-card:active{transform:scale(0.97)}
 .sex-card.selected{border-color:var(--blue);background:var(--blue-lt);color:var(--blue-dk)}
-
+ 
 .field{margin-bottom:14px}
 .field label{display:block;font-size:13px;font-weight:600;color:var(--gray-txt);margin-bottom:6px}
 .field input{width:100%;padding:13px 14px;font-size:16px;border:1.5px solid var(--gray-bd);border-radius:var(--radius-sm);background:var(--white);color:var(--black);font-family:inherit;-webkit-appearance:none;appearance:none}
 .field input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(24,95,165,0.15)}
 .field-hint{font-size:12px;color:var(--gray-hint);margin-top:5px;line-height:1.4}
 .field-warn{font-size:12px;color:#c0390e;margin-top:5px;font-weight:500}
-
+ 
 .group-label{font-size:11px;font-weight:700;color:var(--gray-hint);letter-spacing:.06em;text-transform:uppercase;margin:16px 0 8px}
 .check-group{background:var(--white);border-radius:var(--radius);border:1px solid var(--gray-bd);overflow:hidden;margin-bottom:4px}
 .check-row{display:flex;align-items:flex-start;gap:12px;padding:13px 14px;border-bottom:1px solid var(--gray-bd)}
 .check-row:last-child{border-bottom:none}
 .check-row input[type=checkbox]{width:20px;height:20px;margin-top:1px;flex-shrink:0;accent-color:var(--blue);cursor:pointer}
 .check-row label{font-size:14px;color:var(--black);line-height:1.4;cursor:pointer;flex:1}
-
+ 
 .btn-row{display:flex;gap:10px;margin-top:20px}
 .btn{padding:14px 18px;font-size:16px;font-weight:600;border-radius:var(--radius-sm);border:none;cursor:pointer;font-family:inherit;transition:all .12s;-webkit-user-select:none;user-select:none}
 .btn:active{transform:scale(0.97)}
@@ -77,7 +77,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
 .btn-ghost{background:var(--white);color:var(--gray-txt);border:1.5px solid var(--gray-bd);padding-left:14px;padding-right:14px}
 .btn-ghost:active{background:var(--gray-bg)}
 .btn-reset{background:var(--white);color:var(--black);border:1.5px solid var(--gray-bd);flex:1;font-weight:500}
-
+ 
 .result-card{border-radius:var(--radius);padding:18px;margin-bottom:12px}
 .result-ok{background:var(--green-lt);border:1.5px solid var(--green)}
 .result-ng{background:var(--red-lt);border:1.5px solid var(--red)}
@@ -88,14 +88,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
 .result-body{font-size:14px;line-height:1.5}
 .result-ok .result-body{color:var(--green)}
 .result-ng .result-body{color:var(--red)}
-
+ 
 .criteria-box{background:var(--white);border-radius:var(--radius);border:1px solid var(--gray-bd);padding:14px;margin-top:10px}
 .criteria-hd{font-size:11px;font-weight:700;color:var(--gray-txt);text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
 .crit-row{display:flex;gap:8px;align-items:flex-start;font-size:13px;padding:3px 0;line-height:1.45}
 .crit-row.ok{color:var(--green)}
 .crit-row.ng{color:var(--red)}
 .crit-icon{font-size:14px;flex-shrink:0;margin-top:1px}
-
+ 
 .disclaimer{font-size:12px;color:var(--gray-hint);margin-top:16px;padding:12px 14px;background:var(--white);border-radius:var(--radius-sm);border:1px solid var(--gray-bd);line-height:1.6}
 </style>
 </head>
@@ -103,9 +103,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
 <div class="wrap">
   <div class="header">
     <h1>ASCVD 연구등록 적격성 확인</h1>
-    <p>임상시험 등록 기준 판정 도구 — 참고용</p>
+    <p>임상시험 등록 기준 판정 도구 v3.0 — 참고용</p>
   </div>
-
+ 
   <!-- STEP 1 -->
   <div id="s-group" class="screen active">
     <div style="padding:0">
@@ -128,7 +128,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
       <div class="btn-row"><button class="btn btn-primary" onclick="goNext('group')">다음 →</button></div>
     </div>
   </div>
-
+ 
   <!-- STEP 2 -->
   <div id="s-demo" class="screen">
     <div class="progress-wrap">
@@ -153,7 +153,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
       <button class="btn btn-primary" onclick="goNext('demo')">다음 →</button>
     </div>
   </div>
-
+ 
   <!-- STEP 3 -->
   <div id="s-ldl" class="screen">
     <div class="progress-wrap">
@@ -175,14 +175,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
         <div class="field-hint">기준값: ≥ 25 mg/dL</div>
       </div>
     </div>
-    <div class="field">
-      <label>Lp(a) — mg/dL <span style="font-size:11px;color:var(--gray-hint)">(군 b 추가위험인자용)</span></label>
-      <input type="number" id="lpa-b" min="0" max="500" placeholder="예: 55" inputmode="decimal" step="0.1">
-      <div class="field-hint">기준값: ≥ 50 mg/dL</div>
+    <div id="lpa-b-wrap" style="display:none">
+      <div class="field">
+        <label>Lp(a) — mg/dL <span style="font-size:11px;color:var(--gray-hint)">(군 b 추가위험인자용)</span></label>
+        <input type="number" id="lpa-b" min="0" max="500" placeholder="예: 55" inputmode="decimal" step="0.1">
+        <div class="field-hint">기준값: ≥ 50 mg/dL</div>
+      </div>
     </div>
     <div class="field">
       <label>hs-CRP (mg/dL)</label>
-      <input type="number" id="hsCrp" min="0" placeholder="예: 0.15" inputmode="decimal" step="0.01">
+      <input type="text" id="hsCrp" placeholder="예: 0.15" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]{0,2}" autocomplete="off">
       <div class="field-hint">기준값: ≥ 0.2 mg/dL (= 2.0 mg/L)</div>
     </div>
     <div class="btn-row">
@@ -190,7 +192,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
       <button class="btn btn-primary" onclick="goNext('ldl')">다음 →</button>
     </div>
   </div>
-
+ 
   <!-- STEP 4 -->
   <div id="s-history" class="screen">
     <div class="progress-wrap">
@@ -205,7 +207,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
       <button class="btn btn-primary" onclick="calcResult()">결과 확인 ✓</button>
     </div>
   </div>
-
+ 
   <!-- RESULT -->
   <div id="s-result" class="screen">
     <div class="progress-wrap">
@@ -218,10 +220,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Malgun Gothic","Apple SD Goth
     </div>
   </div>
 </div>
-
+ 
 <script>
 const S={group:null,age:null,sex:null,ldl:null,lpa:null,lpaB:null,hsCrp:null,hx:{}};
-
+ 
 function show(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.getElementById('s-'+id).classList.add('active');
@@ -231,6 +233,9 @@ function selectGroup(g){
   S.group=g;
   document.getElementById('card-a').classList.toggle('selected',g==='a');
   document.getElementById('card-b').classList.toggle('selected',g==='b');
+  // 군 (b)일 때만 Lp(a) ≥50 입력란 표시
+  const lpaBWrap=document.getElementById('lpa-b-wrap');
+  if(lpaBWrap) lpaBWrap.style.display=g==='b'?'block':'none';
 }
 function selectSex(s){
   S.sex=s;
@@ -257,15 +262,20 @@ function buildA(){
   return `
   <div class="group-label">ASCVD 사건 (1개 이상 필요)</div>
   <div class="check-group">
-    <div class="check-row"><input type="checkbox" id="hx-acs" onchange="hxC('acs',this.checked)"><label for="hx-acs">ACS (급성관상동맥증후군) — 1~12개월 전</label></div>
-    <div class="check-row"><input type="checkbox" id="hx-stroke" onchange="hxC('stroke',this.checked)"><label for="hx-stroke">허혈성 뇌졸중 (죽상동맥경화성) — 1~12개월 전</label></div>
+    <div class="check-row"><input type="checkbox" id="hx-acs12" onchange="hxC('acs12',this.checked);toggleMultiWarn()"><label for="hx-acs12">ACS (급성관상동맥증후군) — <strong>1~12개월</strong></label></div>
+    <div class="check-row"><input type="checkbox" id="hx-acsOld" onchange="hxC('acsOld',this.checked);toggleMultiWarn()"><label for="hx-acsOld">ACS — <strong>12개월 이상</strong> <span style="color:#c0390e;font-size:12px">※ 추가위험인자 iii 필수</span></label></div>
+    <div class="check-row"><input type="checkbox" id="hx-stroke12" onchange="hxC('stroke12',this.checked);toggleMultiWarn()"><label for="hx-stroke12">허혈성 뇌졸중 — <strong>1~12개월</strong></label></div>
+    <div class="check-row"><input type="checkbox" id="hx-strokeOld" onchange="hxC('strokeOld',this.checked);toggleMultiWarn()"><label for="hx-strokeOld">허혈성 뇌졸중 — <strong>12개월 이상</strong> <span style="color:#c0390e;font-size:12px">※ 추가위험인자 iii 필수</span></label></div>
     <div class="check-row"><input type="checkbox" id="hx-pad" onchange="hxC('pad',this.checked)"><label for="hx-pad">하지 PAD 혈관재개통술 — 언제든</label></div>
+  </div>
+  <div id="multi-warn" style="display:none;background:#fff4f0;border:1px solid #c0390e;border-radius:8px;padding:10px 12px;margin-bottom:8px;font-size:13px;color:#c0390e;line-height:1.5">
+    ⚠ 12개월 이상 기왕력의 경우 추가위험인자 <strong>iii (2개 이상 혈관계 ASCVD)</strong> 를 반드시 충족해야 합니다.
   </div>
   <div class="group-label">추가위험인자 (i~viii)</div>
   <div class="check-group">
     <div class="check-row"><input type="checkbox" id="hx-t2dm" onchange="hxC('t2dm',this.checked)"><label for="hx-t2dm">T2DM (약물치료 중)</label></div>
     <div class="check-row"><input type="checkbox" id="hx-age65" onchange="hxC('age65',this.checked)"><label for="hx-age65">나이 ≥ 65세</label></div>
-    <div class="check-row"><input type="checkbox" id="hx-multi" onchange="hxC('multi',this.checked)"><label for="hx-multi">2개 이상 혈관계 ASCVD (관상·뇌혈관·말초혈관)</label></div>
+    <div class="check-row"><input type="checkbox" id="hx-multi" onchange="hxC('multi',this.checked)"><label for="hx-multi">iii. 2개 이상 혈관계 ASCVD (관상·뇌혈관·말초혈관)</label></div>
     <div class="check-row"><input type="checkbox" id="hx-recur" onchange="hxC('recur',this.checked)"><label for="hx-recur">반복 ASCVD 사건 (다발성 ACS, 뇌졸중, PAD 등)</label></div>
     <div class="check-row"><input type="checkbox" id="hx-amp" onchange="hxC('amp',this.checked)"><label for="hx-amp">PAD로 인한 족관절 이상 절단</label></div>
     <div class="check-row"><input type="checkbox" id="hx-ckd" onchange="hxC('ckd',this.checked)"><label for="hx-ckd">비말기 CKD (eGFR &lt; 60)</label></div>
@@ -308,6 +318,11 @@ function hxC(k,v){
     if(el) el.style.display=((S.hx.dmOrgan||S.hx.cac100)&&!sig)?'block':'none';
   }
 }
+function toggleMultiWarn(){
+  const needsWarn=S.hx.acsOld||S.hx.strokeOld;
+  const el=document.getElementById('multi-warn');
+  if(el) el.style.display=needsWarn?'block':'none';
+}
 function goNext(from){
   if(from==='group'){
     if(!S.group){alert('군을 선택해주세요.');return;}
@@ -323,7 +338,7 @@ function goNext(from){
     S.ldl=l;
     S.lpa=parseFloat(document.getElementById('lpa').value)||null;
     S.lpaB=parseFloat(document.getElementById('lpa-b').value)||null;
-    S.hsCrp=parseFloat(document.getElementById('hsCrp').value)||null;
+    S.hsCrp=parseFloat((document.getElementById('hsCrp').value||'').replace(',','.'))||null;
     S.hx={};
     document.getElementById('history-title').textContent=S.group==='a'?'ASCVD 기왕력 및 추가위험인자':'죽상동맥 질환 증거 및 위험인자';
     document.getElementById('history-content').innerHTML=S.group==='a'?buildA():buildB();
@@ -340,24 +355,45 @@ function calcResult(){
   if(S.group==='a'){
     age<18?F.push('나이 < 18세 — 연령 기준 미충족'):R.push('나이 ≥ 18세');
     ldl<60?F.push('LDL-C < 60 mg/dL — 기준 미충족'):R.push('LDL-C ≥ 60 mg/dL');
-    const ev=h.acs||h.stroke||h.pad;
-    if(!ev) F.push('ASCVD 기왕력 없음 (ACS·뇌졸중·PAD 재개통술)');
-    else{if(h.acs)R.push('ACS 기왕력');if(h.stroke)R.push('허혈성 뇌졸중 기왕력');if(h.pad)R.push('PAD 혈관재개통술 기왕력');}
-    if(ldl>=60&&ev){
+ 
+    // ASCVD 사건 분류
+    const evRecent = h.acs12||h.stroke12;   // 1~12개월: 조건 없이 OK
+    const evOld    = h.acsOld||h.strokeOld; // 12개월 이상: 추가위험인자 iii 필수
+    const evPad    = h.pad;
+    const ev       = evRecent||evOld||evPad;
+ 
+    if(!ev){
+      F.push('ASCVD 기왕력 없음 (ACS·뇌졸중·PAD 재개통술)');
+    } else {
+      if(h.acs12)  R.push('ACS 기왕력 (1~12개월)');
+      if(h.acsOld) R.push('ACS 기왕력 (12개월 이상)');
+      if(h.stroke12)  R.push('허혈성 뇌졸중 기왕력 (1~12개월)');
+      if(h.strokeOld) R.push('허혈성 뇌졸중 기왕력 (12개월 이상)');
+      if(evPad)    R.push('PAD 혈관재개통술 기왕력');
+    }
+ 
+    // 12개월 이상 기왕력 → 추가위험인자 iii (다혈관 ASCVD) 필수
+    if(evOld && !h.multi){
+      F.push('12개월 이상 기왕력: 추가위험인자 iii (2개 이상 혈관계 ASCVD) 미충족');
+    }
+ 
+    if(ldl>=60 && ev){
       const lpaHiA=lpa!==null&&lpa>=25;
       const cnt=[h.t2dm,h.age65||age>=65,h.multi,h.recur,h.amp,h.ckd,crpHi,lpaHiA].filter(Boolean).length;
+      // 12개월 이상이면서 iii 미충족인 경우 eligible 불가
+      const oldOk = !evOld || h.multi;
       if(ldl<75){
-        if(lpaHiA&&cnt>=2){ok=true;R.push('LDL-C 60~74: Lp(a) ≥ 25 + 추가위험인자 충족');}
+        if(lpaHiA&&cnt>=2&&oldOk){ok=true;R.push('LDL-C 60~74: Lp(a) ≥ 25 + 추가위험인자 충족');}
         else if(!lpaHiA) F.push('Lp(a) ≥ 25 mg/dL 미충족');
-        else F.push('추가위험인자 1개 이상 필요');
+        else if(cnt<2) F.push('추가위험인자 1개 이상 필요');
       } else {
-        if(cnt>=1){
+        if(cnt>=1&&oldOk){
           ok=true;R.push('LDL-C ≥ 75 mg/dL + 추가위험인자 충족');
           if(h.t2dm)R.push('  · T2DM');if(age>=65||h.age65)R.push('  · 나이 ≥ 65세');
-          if(h.multi)R.push('  · 다혈관 ASCVD');if(h.recur)R.push('  · 반복 ASCVD');
+          if(h.multi)R.push('  · 다혈관 ASCVD (iii)');if(h.recur)R.push('  · 반복 ASCVD');
           if(h.amp)R.push('  · PAD 절단');if(h.ckd)R.push('  · CKD eGFR < 60');
           if(crpHi)R.push('  · hs-CRP ≥ 0.2 mg/dL');if(lpaHiA)R.push('  · Lp(a) ≥ 25 mg/dL');
-        } else F.push('추가위험인자 없음 (i~viii 중 1개 필요)');
+        } else if(cnt<1) F.push('추가위험인자 없음 (i~viii 중 1개 필요)');
       }
     }
   } else {
@@ -399,6 +435,7 @@ function resetAll(){
   document.getElementById('ldl-warn').style.display='none';
   document.getElementById('ldl-hint').textContent='';
   document.getElementById('lpa-a-wrap').style.display='none';
+  document.getElementById('lpa-b-wrap').style.display='none';
   show('group');
 }
 </script>
